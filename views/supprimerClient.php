@@ -1,9 +1,10 @@
 <?PHP
-include "../core/employeC.php";
-$employeC=new EmployeC();
-if (isset($_POST["cin"])){
-	$employeC->supprimerEmploye($_POST["cin"]);
-	header('Location: http://localhost/nour/views/afficherEmploye.php');
+include '../config.php';
+include "../Core/ClientCore.php";
+$clientController=new ClientCore();
+if (isset($_POST["id"])){
+	$clientController->supprimerClient($_POST["id"]);
+	header('Location: afficherClient.php');
 }
 
 ?>

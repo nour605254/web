@@ -1,20 +1,20 @@
 <?PHP
-class Employe{
+class Client{
 	private $id;
 	private $nom;
 	private $prenom;
 	private $email;
-	private $numero;
+	private $pwd;
 	private $adresse;
-	private $nb_achat;
-	function __construct($id,$nom,$prenom,$email,$numero,$adresse,$nb_achat){
+	private $numero;
+	function __construct($id,$nom,$prenom,$email,$pwd,$adresse,$numero){
 		$this->id=$id;
 		$this->nom=$nom;
 		$this->prenom=$prenom;
 		$this->email=$email;
-		$this->numero=$numero;
+		$this->pwd=$pwd;
 		$this->adresse=$adresse;
-		$this->nb_Achat=$nb_achat;
+		$this->numero=$numero;
 	}
 	
 	function getId(){
@@ -29,15 +29,15 @@ class Employe{
 	function getEmail(){
 		return $this->email;
 	}
-	function getNumero(){
-		return $this->numero;
+	function getPwd(){
+		return $this->pwd;
 	}
 
 	function getAdresse(){
 		return $this->adresse;
 	}
-	function getNb_achat(){
-		return $this->nb_achat;
+	function getNumero(){
+		return $this->numero;
 	}
 
 
@@ -46,19 +46,19 @@ class Employe{
 		$this->nom=$nom;
 	}
 	function setPrenom($prenom){
-		$this->prenom;
+		$this->prenom=$prenom;
 	}
 	function setEmail($email){
 		$this->email=$email;
 	}
-	function setNumero($numero){
-		$this->numero=$numero;
+	function setPwd($pwd){
+		$this->pwd=$pwd;
 	}
 	function setAdresse($adresse){
 		$this->adresse=$adresse;
 	}
-	function setNb_achat($nb_achat){
-		$this->nb_achat=$nb_achat;
+	function setNumero($numero){
+		$this->numero=$numero;
 	}
 	
 }

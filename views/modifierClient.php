@@ -3,19 +3,20 @@
 </head>
 <body>
 <?PHP
-include "../entities/client.php";
-include "../core/clientC.php";
+include "../Entities/client.php";
+include '../config.php';
+include "../Core/ClientCore.php";
 if (isset($_GET['id'])){
-	$clientC=new ClientC();
-    $result=$clientC->recupererClient($_GET['id']);
+	$clientController=new ClientCore();
+    $result=$clientController->recupererClient($_GET['id']);
 	foreach($result as $row){
 		$id=$row['id'];
 		$nom=$row['nom'];
 		$prenom=$row['prenom'];
 		$email=$row['email'];
-		$numero=$row['numero'];
+		$pwd=$row['pwd'];
 		$adresse=$row['adresse'];
-		$nb_achat=$row['nb_achat'];
+		$numero=$row['numero'];
 ?>
 <form method="POST">
 <table>
@@ -37,8 +38,8 @@ if (isset($_GET['id'])){
 <td><input type="text" name="email" value="<?PHP echo $email ?>"></td>
 </tr>
 <tr>
-<td>Numero</td>
-<td><input type="number" name="numero" value="<?PHP echo $numero ?>"></td>
+<td>Password</td>
+<td><input type="Password" name="pwd" value="<?PHP echo $pwd ?>"></td>
 </tr>
 <tr>
 <td>Adresse</td>
@@ -46,7 +47,7 @@ if (isset($_GET['id'])){
 </tr>
 <tr>
 <td>Numero</td>
-<td><input type="number" name="nb_achat" value="<?PHP echo $nb_achat ?>"></td>
+<td><input type="number" name="numero" value="<?PHP echo $numero ?>"></td>
 </tr>
 <tr>
 <td></td>
@@ -54,7 +55,7 @@ if (isset($_GET['id'])){
 </tr>
 <tr>
 <td></td>
-<td><input type="hidden" name="id_ini" value="<?PHP echo $_GET['id'];?>"></td>
+<td><input type="hidden" name="id_ini" value="<?PHPecho $_GET['id'];?>"></td>
 </tr>
 </table>
 </form>
@@ -62,10 +63,10 @@ if (isset($_GET['id'])){
 	}
 }
 if (isset($_POST['modifier'])){
-	$client=new client($_POST['id'],$_POST['nom'],$_POST['prenom'],$_POST['email'],$_POST['numero'],$_POST['adresse'],$_POST['nb_achat']);
-	$clientC->modifierEmploye($employe,$_POST['id_ini']);
-	echo $_POST['cin_ini'];
-	header('Location: http://localhost/nour/views/afficherEmploye.php');
+	$client=new client($_POST['id'],$_POST['nom'],$_POST['prenom'],$_POST['email'],$_POST['pwd'],$_POST['adresse'],$_POST['numero']);
+	$clientController->modifierClient($client,$_POST['id_ini']);
+	echo $_POST['id_ini'];
+	header('Location: afficherClient.php');
 }
 ?>
 </body>
