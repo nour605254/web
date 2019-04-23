@@ -87,7 +87,7 @@
 <h2>Connexion</h2>
 
 
-  <form class="modal-content animate" method="POST" action="http://localhost/git/web/views/front office/client/creer_compte.php" >
+  <form class="modal-content animate" method="POST" action="" >
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='block'" class="close" title="Close Modal">&times;</span>
       <img src="../img/avatar.png" alt="Avatar" class="avatar">
@@ -114,7 +114,7 @@
     <div class="bottom-container">
   <div class="row">
     <div class="col">
-      <a href="ajoutClient.html" style="color:white" class="btn">Créer un compte</a>
+      <a href="http://localhost/git/web/Views/frontoffice/client/ajoutClient.php" style="color:white" class="btn">Créer un compte</a>
     </div>
     <div class="col">
       <a href="#" style="color:white" class="btn">Mot de passe oublié?</a>

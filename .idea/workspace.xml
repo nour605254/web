@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4de2695d-5873-441d-8526-f679fa07b8e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ClientCore.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/ClientCore.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/client.php" beforeDir="false" afterPath="$PROJECT_DIR$/entities/client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/ajax/dashboard-boxrefresh-demo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/client.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/AdminLTE.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/bootstrap-slider/slider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/colorpicker/bootstrap-colorpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/colorpicker/bootstrap-colorpicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/datatables/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/datatables/images/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/datatables/images/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/datatables/images/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/datatables/images/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/datatables/images/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/daterangepicker/daterangepicker-bs3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/fullcalendar/fullcalendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/fullcalendar/fullcalendar.print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/flat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/flat@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/flat/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/futurico/futurico.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/futurico/futurico.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/futurico/futurico@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/line/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/line/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/line/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/line/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/line/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/line/line.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/line/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/line/line@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/line/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/line/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/line/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/line/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/line/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/minimal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/minimal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/minimal@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/minimal/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/polaris/polaris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/polaris/polaris.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/polaris/polaris@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/_all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/aero.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/aero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/aero@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/blue@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/green@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/grey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/grey.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/grey@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/orange.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/orange.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/orange@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/pink.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/pink.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/pink@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/purple@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/red.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/red@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/square.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/square@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/yellow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/iCheck/square/yellow@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/animated-overlay.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-bg_flat_55_fbec88_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-bg_glass_75_d0e5f5_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-bg_glass_85_dfeffc_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-bg_glass_95_fef1ec_1x400.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-bg_inset-hard_100_f5f8f9_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-icons_217bc0_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-icons_2e83ff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-icons_469bdd_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-icons_6da8d5_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-icons_cd0a0a_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-icons_d8e7f3_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/images/ui-icons_f9bd01_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/ionicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/ionslider/ion.rangeSlider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/ionslider/ion.rangeSlider.skinFlat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/ionslider/ion.rangeSlider.skinNice.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/images/animated-overlay.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/images/ui-bg_flat_0_aaaaaa_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/images/ui-bg_flat_100_e6e7e8_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/images/ui-bg_flat_100_f56954_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/images/ui-bg_flat_55_f39c12_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/images/ui-bg_flat_65_ffffff_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/images/ui-bg_flat_75_dadada_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/images/ui-bg_flat_75_e6e6e6_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/images/ui-bg_flat_75_ffffff_40x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/images/ui-icons_222222_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/images/ui-icons_454545_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/images/ui-icons_888888_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/images/ui-icons_ffffff_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/jquery-ui-1.10.3.custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jQueryUI/jquery-ui-1.10.3.custom.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/jvectormap/jquery-jvectormap-1.2.2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/morris/morris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/timepicker/bootstrap-timepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/css/timepicker/bootstrap-timepicker.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/empty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/fonts/ionicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/ajax-loader1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/avatar04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/avatar2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/avatar3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/avatar5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/blur-background04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/blur-background08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/blur-background09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/bootstrap-colorpicker/alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/bootstrap-colorpicker/hue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/bootstrap-colorpicker/saturation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/credit/american-express.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/credit/cirrus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/credit/mastercard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/credit/mestro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/credit/paypal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/credit/paypal2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/credit/visa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/islem.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/sprite-skin-flat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/sprite-skin-nice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/user-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/img/user2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/AdminLTE/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/AdminLTE/dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/jquery-ui-1.10.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/jquery-ui-1.10.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/bootstrap-slider/bootstrap-slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/CHANGES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/adapters/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/build-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/ckeditor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/contents.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/bn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/bs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/en-au.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/en-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/en-gb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/fo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/gu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/ms.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/sr-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/ug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/lang/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/about/dialogs/about.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/dialog/dialogDefinition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/fakeobjects/images/spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/icons_hidpi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/image/dialogs/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/image/images/noimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/link/dialogs/anchor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/link/dialogs/link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/link/images/anchor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/link/images/hidpi/anchor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/magicline/images/hidpi/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/magicline/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/pastefromword/filter/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/scayt/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/scayt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/scayt/dialogs/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/table/dialogs/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/wsc/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/wsc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/wsc/dialogs/tmp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/dialog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/dialog_ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/dialog_ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/dialog_ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/dialog_iequirks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/dialog_opera.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/editor_gecko.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/editor_ie.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/editor_ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/editor_ie8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/editor_iequirks.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/icons_hidpi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/images/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/images/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/images/hidpi/close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/images/hidpi/lock-open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/images/hidpi/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/images/hidpi/refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/images/lock-open.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/images/lock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/images/refresh.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/skins/moono/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ckeditor/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/colorpicker/bootstrap-colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/colorpicker/bootstrap-colorpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/datatables/dataTables.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/datatables/jquery.dataTables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/daterangepicker/daterangepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/excanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/excanvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.colorhelpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.colorhelpers.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.canvas.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.categories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.categories.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.crosshair.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.crosshair.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.errorbars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.errorbars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.fillbetween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.fillbetween.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.image.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.navigate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.navigate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.pie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.pie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.resize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.selection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.selection.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.stack.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.symbol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.symbol.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.threshold.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.threshold.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/flot/jquery.flot.time.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/fullcalendar/fullcalendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/fullcalendar/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/iCheck/icheck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/iCheck/icheck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/input-mask/jquery.inputmask.date.extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/input-mask/jquery.inputmask.extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/input-mask/jquery.inputmask.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/input-mask/jquery.inputmask.numeric.extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/input-mask/jquery.inputmask.phone.extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/input-mask/jquery.inputmask.regex.extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/input-mask/phone-codes/phone-be.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/input-mask/phone-codes/phone-codes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/input-mask/phone-codes/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/ionslider/ion.rangeSlider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/jqueryKnob/jquery.knob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/misc/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/misc/jquery.ba-resize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/misc/jquery.placeholder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/misc/modernizr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/misc/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/morris/morris.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/morris/morris.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/slimScroll/jquery.slimscroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/slimScroll/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/slimScroll/slimScroll.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/sparkline/jquery.sparkline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/sparkline/jquery.sparkline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/timepicker/bootstrap-timepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/js/plugins/timepicker/bootstrap-timepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/404_500_errors.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/AdminLTE.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/alerts.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/boxes.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/buttons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/callout.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/dropdown.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/forms.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/header.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/iCheck.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/invoice.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/lockscreen.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/login_and_register.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/mailbox.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/navs.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/pace.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/progress-bars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/sidebar.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/skins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/small-box.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/timeline.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/less/vars.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/UI/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/UI/empty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/UI/general.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/UI/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/UI/jquery-ui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/UI/sliders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/UI/timeline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/ahmed/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/ahmed/livraison.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/ahmed/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/ahmed/sup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/charts/empty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/charts/flot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/charts/inline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/charts/morris.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/empty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/event.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/examples/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/examples/500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/examples/blank.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/examples/invoice.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/examples/lockscreen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/examples/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/examples/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/forms/advanced.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/forms/editors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/forms/empty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/forms/general.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/hazem/pub.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/houria/commande.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/houria/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/houria/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/houria/sup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/houria/wishlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/houria/wishlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/imen/abonne.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/imen/data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/imen/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/imen/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/imen/promotion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/imen/sup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/mailbox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/ajoutClient.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/ajout_admin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/cible.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/cible1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/client2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/clients.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/clients.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/creer_com.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/creer_compte.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/css/ajouter_admin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/css/connexion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/css/seConnecter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/entete.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/entete_complete.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/form1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/gauche.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/get.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/html/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/html/brouillon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/jeux_video.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/js/ajouter_client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/js/connexion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/se_connecter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/src/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/src/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/nour/src/sup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/tables/data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/tables/empty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/tables/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/tables/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/tables/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/tables/sup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/widgets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/wifek/categorie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/wifek/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/wifek/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/pages/wifek/sup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/Back office/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/afficherClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/afficherClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/ajoutClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/ajoutClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/frontoffice/ajoutClient.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/frontoffice/ajoutClient.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/frontoffice/client/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/frontoffice/client/connexion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/frontoffice/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/modifierClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/modifierClient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/start.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/start.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" executionDataType="PHAR" phpInterpreterId="f8c45e32-fc20-4216-bdf7-18396f315feb" synchronizationState="DONT_SYNCHRONIZE">
+    <pharPath>$PROJECT_DIR$/composer.phar</pharPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/frontoffice/ajoutClient.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Views/frontoffice/ajoutClient.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="151" column="4" selection-start-line="151" selection-start-column="4" selection-end-line="160" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Views/afficherClient.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Views/frontoffice/ajoutClient.php" />
+        <option value="$PROJECT_DIR$/Views/afficherClient.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="772" />
+    <option name="height" value="858" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bin/php/php7.3.1/zend_ext/php_xdebug-2.7.0beta1-7.3-vc15-x86_64.dll" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4de2695d-5873-441d-8526-f679fa07b8e3" name="Default Changelist" comment="" />
+      <created>1555850865429</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555850865429</updated>
+      <workItem from="1555850881543" duration="4148000" />
+      <workItem from="1555874559599" duration="603000" />
+      <workItem from="1555875210733" duration="601000" />
+      <workItem from="1555875875333" duration="3317000" />
+      <workItem from="1555881220114" duration="95000" />
+      <workItem from="1555881372790" duration="367000" />
+      <workItem from="1555881774285" duration="1077000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10208000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="1" width="772" height="858" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.59212375" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="CSS-X-Fire" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Merger" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Views/frontoffice/ajoutClient.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/afficherClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Views/frontoffice/ajoutClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="151" column="4" selection-start-line="151" selection-start-column="4" selection-end-line="160" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

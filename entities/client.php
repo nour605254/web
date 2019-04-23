@@ -7,7 +7,7 @@ class Client{
 	private $pwd;
 	private $adresse;
 	private $numero;
-	function __construct($id,$nom,$prenom,$email,$pwd,$adresse,$numero){
+	public function __construct($id,$nom,$prenom,$email,$pwd,$adresse,$numero){
 		$this->id=$id;
 		$this->nom=$nom;
 		$this->prenom=$prenom;
@@ -62,5 +62,7 @@ class Client{
 	}
 	
 }
+
+
 
 ?>

@@ -7,7 +7,7 @@ Dernière modification : 20 août XXXX
 */
 
 // On vérifie d'abord s'il n'y a pas de champ vide
-if ($_POST['id'] == NULL OR $_POST['nom'] == NULL OR $_POST['prenom'] == NULL OR $_POST['email'] == NULL OR $_POST['numero'] == NULL OR $_POST['adresse'] == NULL OR $_POST['nb_achat'] == NULL)
+if ($_POST['id'] == NULL OR $_POST['nom'] == NULL OR $_POST['prenom'] == NULL OR $_POST['email'] == NULL OR $_POST['pwd'] == NULL OR $_POST['adresse'] == NULL OR $_POST['numero'] == NULL)
 {
     echo 'Tous les champs ne sont pas remplis !';
 }

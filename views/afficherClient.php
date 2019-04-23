@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?PHP
 include '../config.php';
 include "../Core/ClientCore.php";
@@ -6,41 +7,63 @@ $listeClients=$client1->afficherClients();
 
 //var_dump($listeClients->fetchAll());
 ?>
-<table border="1">
-<tr>
-<td>Id</td>
-<td>Nom</td>
-<td>Prenom</td>
-<td>email</td>
-<td>pwd</td>
-<td>adresse</td>
-<td>numero</td>
-<td>supprimer</td>
-<td>modifier</td>
-</tr>
+<!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   </head>
+  <body>
+  <br>
+  <center><h1> Clients</h1></center><br>
+    <div class="container">
+      <div class="row">
+          <br>
+
+
+    <table class="table" border="1">
+
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Id</th>
+      <th scope="col">Nom</th>
+      <th scope="col">Prenom</th>
+      <th scope="col">Email</th>
+      <th scope="col">Pwd</th>
+      <th scope="col">Adresse</th>
+      <th scope="col">Numéro</th>
+        <th scope="col">Supprimer</th>
+        <th scope="col">Modifier</th>
+    </tr>
+  </thead>
 
 <?PHP
 foreach($listeClients as $row){
 	?>
+
+	<tbody>
 	<tr>
-	<td><?PHP echo $row['id']; ?></td>
-	<td><?PHP echo $row['nom']; ?></td>
-	<td><?PHP echo $row['prenom']; ?></td>
-	<td><?PHP echo $row['email']; ?></td>
-	<td><?PHP echo $row['pwd']; ?></td>
-	<td><?PHP echo $row['adresse']; ?></td>
-	<td><?PHP echo $row['numero']; ?></td>
-	<td><form method="POST" action="supprimerClient.php">
-	<input type="submit" name="supprimer" value="supprimer">
+	<th scope="row"><?PHP echo $row['id']; ?></th>
+	<th><?PHP echo $row['nom']; ?></th>
+	<th><?PHP echo $row['prenom']; ?></th>
+	<th><?PHP echo $row['email']; ?></th>
+	<th><?PHP echo $row['pwd']; ?></th>
+	<th><?PHP echo $row['adresse']; ?></th>
+	<th><?PHP echo $row['numero']; ?></th>
+	<th><form method="POST" action="supprimerClient.php">
+	<center><input type="submit" name="supprimer" value="supprimer" style="opacity: 0.8;;background-color: salmon;font-size: 14px;border-radius: 12px;"></center>
 	<input type="hidden" value="<?PHP echo $row['id']; ?>" name="id">
 	</form>
-	</td>
-	<td><a href="modifierClient.php?id=<?PHP echo $row['id']; ?>">
-	Modifier</a></td>
+	</th>
+	<th><a href="modifierClient.php?id=<?PHP echo $row['id']; ?>">
+	Modifier</a></th>
 	</tr>
+
+  </tbody>
+
 	<?PHP
 }
 ?>
 </table>
+
+
+
 
 

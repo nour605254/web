@@ -1,28 +1,4 @@
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
 
-/* Full-width input fields */
-
-
-/* Add a background color when the inputs get focus */
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-
-/* Set a style for all buttons */
-
-
-button:hover {
-  opacity:1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: rgb(179,0,0,0.8);
-}
 
 /* Float cancel and signup buttons and add an equal width */
 .cancelbtn
@@ -37,8 +13,8 @@ button:hover {
   width: 42.5%;
   opacity: 0.9;
 
-	} 
-	.signupbtn {
+  } 
+  .signupbtn {
   float: left;
   width: 42.5%;
   background-color: rgb(0, 92, 230,0.8);

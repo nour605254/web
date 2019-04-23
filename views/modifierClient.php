@@ -2,10 +2,10 @@
 <head>
 </head>
 <body>
-<?PHP
+<?php
 include "../Entities/client.php";
-include '../config.php';
 include "../Core/ClientCore.php";
+
 if (isset($_GET['id'])){
 	$clientController=new ClientCore();
     $result=$clientController->recupererClient($_GET['id']);
@@ -35,7 +35,7 @@ if (isset($_GET['id'])){
 </tr>
 <tr>
 <td>Email</td>
-<td><input type="text" name="email" value="<?PHP echo $email ?>"></td>
+<td><input type="email" name="email" value="<?PHP echo $email ?>"></td>
 </tr>
 <tr>
 <td>Password</td>
@@ -55,11 +55,11 @@ if (isset($_GET['id'])){
 </tr>
 <tr>
 <td></td>
-<td><input type="hidden" name="id_ini" value="<?PHPecho $_GET['id'];?>"></td>
+<td><input type="hidden" name="id_ini" value="<?echo $_GET['id'];?>"></td>
 </tr>
 </table>
 </form>
-<?PHP
+<?php
 	}
 }
 if (isset($_POST['modifier'])){

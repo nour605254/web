@@ -1,24 +1,14 @@
 <?PHP
-include "../../Entities/client.php";
-include "../../Core/ClientCore.php";
-$client=new Client(757,'AHMED','Salah','salah.ahmed@esprit.tn','000','ariana',205);
-$clientController=new ClientController();
-$clientController->afficherClient($client);
+include "../Entities/eleve.php";
+include "../Core/EleveCore.php";
+$eleve=new Eleve(757,'AHMED');
+$eleveController=new eleveController();
+$eleveController->afficherEleve($eleve);
 echo "****************";
 echo "<br>";
-echo "id:".$client->getId();
+echo "id:".$eleve->getId();
 echo "<br>";
-echo "nom:".$client->getNom();
-echo "<br>";
-echo "prenom:".$client->getPrenom();
-echo "<br>";
-echo "email:".$client->getEmail();
-echo "<br>";
-echo "pwd:".$client->getPwd();
-echo "<br>";
-echo "adresse:".$client->getAdresse();
-echo "<br>";
-echo "numero:".$client->getNumero();
+echo "nom:".$eleve->getNom();
 echo "<br>";
 
 

@@ -140,9 +140,11 @@
 
 
  <section>
-<form method="POST" action="http://localhost/web/Views/ajoutClient.php">
+<form method="POST" action="http://localhost/git/web/Views/afficherClient.php">
             <div class="container">
       <div class="row">
+
+          <center>
         <caption  class="caption">Ajouter Client</caption>
     <table class="table">
         
@@ -179,6 +181,8 @@
   </tbody>
 </table>
 </form>
+
+     </center>
         </section>
 
 
