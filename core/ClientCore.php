@@ -1,12 +1,7 @@
-<?php
-
-
-include 'C:/wamp64/www/git/web/config.php';
-
-
+<?PHP
+include "config.php";
 class ClientCore {
-	
-	public function afficherClient ($client){
+function afficherClient ($client){
         echo "Id: ".$client->getId()."<br>";
         echo "Nom: ".$client->getNom()."<br>";
         echo "Prénom: ".$client->getPrenom()."<br>";
@@ -15,13 +10,16 @@ class ClientCore {
         echo "Adresse: ".$client->getAdresse()."<br>";
          echo "Numéro: ".$client->getNumero()."<br>";
     }
+
+        function calculerSalaire($client){
+        echo $client->getNumero() * $client->getId();
+    }
     
-   public function ajouterClient($client){
+    function ajouterClient($client){
 
         $sql="insert into client (id,nom,prenom,email,pwd,adresse,numero) values (:id,:nom,:prenom,:email,:pwd,:adresse,:numero)";
         $bdd = config::getConnexion();
         try{
-			
         $req=$bdd->prepare($sql);
         
         $id=$client->getId();
@@ -48,7 +46,7 @@ class ClientCore {
         
     }
     
-   public function afficherClients(){
+    function afficherClients(){
         $sql="SElECT * From client";
         $db = config::getConnexion();
         try{
@@ -59,7 +57,7 @@ class ClientCore {
             die('Erreur: '.$e->getMessage());
         }   
     }
-  public  function supprimerClient($id){
+    function supprimerClient($id){
         $sql="DELETE FROM client where id= :id";
         $db = config::getConnexion();
         $req=$db->prepare($sql);
@@ -72,15 +70,13 @@ class ClientCore {
             die('Erreur: '.$e->getMessage());
         }
     }
-   
-public  function modifierClient($client,$id){
+    function modifierClient($client,$id){
         $sql="UPDATE client SET id=:idd, nom=:nom,prenom=:prenom,email=:email, pwd=:pwd, adresse=:adresse,numero=:numero WHERE id=:id";
         
         $db = config::getConnexion();
         //$db->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
 try{        
         $req=$db->prepare($sql);
-		
         $idd=$client->getId();
         $nom=$client->getNom();
         $prenom=$client->getPrenom();
@@ -88,10 +84,8 @@ try{
         $pwd=$client->getPwd();
         $adresse=$client->getAdresse();
         $numero=$client->getNumero();
-		
         $datas = array(':idd'=>$idd, ':id'=>$id, ':nom'=>$nom,':prenom'=>$prenom, ':email'=>$email, ':pwd'=>$pwd, ':adresse'=>$adresse, ':numero'=>$numero);
         $req->bindValue(':idd',$idd);
-		
         $req->bindValue(':id',$id);
         $req->bindValue(':nom',$nom);
         $req->bindValue(':prenom',$prenom);
